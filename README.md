@@ -16,9 +16,9 @@ git init   (it initiate git inside project)
 
 ## Git Add
 
-git add -A    (stages All files incluing new, modified and deleted)
-git add .     (stages new and modified, without deleted)
-git add -u    (stages modified and deleted, without new)
+git add -A    (stages All files incluing new, modified and deleted);
+git add .     (stages new and modified, without deleted);
+git add -u    (stages modified and deleted, without new);
 
 
 
