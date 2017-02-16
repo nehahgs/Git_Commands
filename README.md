@@ -2,12 +2,15 @@
 A list of command which are used very often.
 
 
+
 ## Git Configuation locally and globally
 
 
 
+
 ## Git Initiate
-git init   (it initiate a 
+git init   (it initiate git inside project)
+
 
 
 
@@ -24,8 +27,10 @@ git commit -m "your comment"
 
 
 
+
 ## Git Status
 git status   (all files should be in green, if not then add using below command)
+
 
 
 
@@ -35,11 +40,17 @@ git remote get-url origin                                                  (chec
 git remote set-url origin https://github.com/sudheerpal/Git_Commands.git  (to set/change git remote to different URL)
 
 
+
+
 ## Git Push
 git push -u origin master
 
 
+
+
 ## Git Pull
+
+
 
 
 
