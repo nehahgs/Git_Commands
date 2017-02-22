@@ -4,8 +4,9 @@ A list of command which are used very often.
 ## Git Clone
 git clone http://repo-url
 
-## Git Configuation locally and globally
+## Git Configuation
 git config --global user.name 'Sudheer Pal'
+
 git config --global user.email 'sudheerpal2@gmail.com'   ('local' can be used in place of 'global' in case your want local git configuration)
 
 
