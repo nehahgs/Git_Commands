@@ -55,7 +55,8 @@ git remote set-url origin https://github.com/sudheerpal/Git_Commands.git  (to se
 
 
 ## Git Push
-git push -u origin master
+git push -u origin master    (for the first time, when publishing code to remote repo)
+git push      (can be used later)
 
 
 
