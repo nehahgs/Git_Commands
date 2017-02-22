@@ -59,3 +59,6 @@ git push -u origin master
 
 
 ## Git Stash
+git stash (making a backup of your changes, before pulling)
+git stash apply (apply the changes, after new git pull)
+git stash drop  (discarding the changes, after new git pull)
