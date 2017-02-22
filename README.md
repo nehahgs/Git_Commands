@@ -14,13 +14,17 @@ git init   (it initiate git inside project)
 
 
 
-## Git Add
+## Git Add Files
 
 git add -A    (stages All files incluing new, modified and deleted)
 
 git add .     (stages new and modified, without deleted)
 
 git add -u    (stages modified and deleted, without new)
+
+
+## Git Remove Files
+git rm --cached <file_name>
 
 
 
@@ -60,5 +64,7 @@ git push -u origin master
 
 ## Git Stash
 git stash (making a backup of your changes, before pulling)
+
 git stash apply (apply the changes, after new git pull)
+
 git stash drop  (discarding the changes, after new git pull)
