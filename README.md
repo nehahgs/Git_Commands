@@ -22,9 +22,11 @@ git add .     (stages new and modified, without deleted)
 
 git add -u    (stages modified and deleted, without new)
 
+git add fileName  (in case you want to add a single file only)
+
 
 ## Git Remove Files
-git rm --cached <file_name>
+git rm --cached fileName
 
 
 
