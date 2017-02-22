@@ -24,6 +24,8 @@ git add -u    (stages modified and deleted, without new)
 
 git add fileName  (in case you want to add a single file only)
 
+git add *.html  (this will add all html file)
+
 
 ## Git Remove Files
 git rm --cached fileName
@@ -31,7 +33,7 @@ git rm --cached fileName
 
 
 ## Git Commit
-git commit -m "your comment"
+git commit -m 'your comment'
 
 
 
@@ -70,3 +72,11 @@ git stash (making a backup of your changes, before pulling)
 git stash apply (apply the changes, after new git pull)
 
 git stash drop  (discarding the changes, after new git pull)
+
+
+## Git Branching
+git branch branchName    (creates a new branch)
+
+git checkout branchName  (moves index to new branch)
+
+git merge branchName     (its merges a branch to master branch, IMP. please make sure, you checkout to master branch before merging.)
